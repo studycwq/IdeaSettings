@@ -1,0 +1,26 @@
+<templateSet group="custom">
+  <template name="hi" value="/**&#10; * $DECLARE$&#10; */&#10;@RequestMapping(value = &quot;/$PATH$&quot;, method = RequestMethod.$METHOD$)&#10;public&#10;@ResponseBody&#10;JsonMessage $NAME$() {&#10;    return JsonMessage.success($RETURN$);&#10;}" description="hboxs interface" toReformat="true" toShortenFQNames="true">
+    <variable name="DECLARE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="camelCase(PATH)" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="enum(&quot;GET&quot;,&quot;POST&quot;)" defaultValue="GET" alwaysStopAt="true" />
+    <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="di" value="@Resource(name = &quot;$VARIABLE$Impl&quot;)&#10;private $NAME$ $VARIABLE$;" description="Dependency Injection" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VARIABLE" expression="camelCase(NAME)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="jm" value="return JsonMessage.$TYPE$($DATA$);" description="return error json message" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="enum(&quot;success&quot;,&quot;error&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
