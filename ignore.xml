@@ -1,5 +1,5 @@
 <application>
-  <component name="IgnoreSettings" missingGitignore="true" ignoredFileStatus="true" outerIgnoreRules="true" outerIgnoreWrapperHeight="209" version="2.6.1" starredTemplates="" unignoreActions="true" hideIgnoredFiles="false" informTrackedIgnored="false" notifyIgnoredEditing="true">
+  <component name="IgnoreSettings" missingGitignore="true" ignoredFileStatus="true" outerIgnoreRules="true" outerIgnoreWrapperHeight="100" version="2.6.1" starredTemplates="" unignoreActions="true" hideIgnoredFiles="false" informTrackedIgnored="true" notifyIgnoredEditing="true">
     <languages>
       <language id="Bazaar" NEW_FILE="true" ENABLE="true" />
       <language id="CloudFoundry" NEW_FILE="true" ENABLE="false" />
@@ -35,9 +35,7 @@
 .idea
 *.iml
 out
-gen
-!/repo/*.jar
-src/main/resources/rebel.xml</template>
+gen</template>
     </userTemplates>
   </component>
 </application>
