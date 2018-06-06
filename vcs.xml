@@ -22,6 +22,10 @@
           <option name="url" value="https://gitee.com/studycwq/RAP.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://team.hboxs.com/source/gaomi-jiuchasheng-backend.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\will\IdeaProjects" />
