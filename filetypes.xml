@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern=".sigar_shellrc" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
