@@ -46,6 +46,18 @@
           <option name="url" value="https://github.com/nbhuzan/interview.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/FengShaduVIP/onLineSys.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://team.hboxs.com/source/xingou-backend.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://team.hboxs.com/source/wuliuquanquan-backend.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\will\IdeaProjects" />
