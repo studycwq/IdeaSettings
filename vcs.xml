@@ -58,8 +58,19 @@
           <option name="url" value="https://team.hboxs.com/source/wuliuquanquan-backend.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/gsls200808/JrebelLicenseServerforJava.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://team.hboxs.com/source/gaomiegou-cashier-backend.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\will\IdeaProjects" />
+  </component>
+  <component name="VcsApplicationSettings">
+    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Desktop" />
   </component>
 </application>
