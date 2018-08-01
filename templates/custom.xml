@@ -9,7 +9,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="di" value="@Resource(name = &quot;$VARIABLE$Impl&quot;)&#10;private $NAME$ $VARIABLE$;" description="Dependency Injection" toReformat="false" toShortenFQNames="true">
+  <template name="di" value="@Autowired&#10;private $NAME$ $VARIABLE$;" description="Dependency Injection" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VARIABLE" expression="camelCase(NAME)" defaultValue="" alwaysStopAt="false" />
     <context>
