@@ -1,8 +1,8 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern=".gitignore_global" type="Git file" />
-      <removed_mapping ext="conf" approved="true" type="HOCON" />
       <mapping pattern=".sigar_shellrc" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
