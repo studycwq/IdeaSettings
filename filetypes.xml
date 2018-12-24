@@ -4,7 +4,6 @@
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern=".sigar_shellrc" type="PLAIN_TEXT" />
-      <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
